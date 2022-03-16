@@ -369,10 +369,13 @@ _modulator = [HDModulator loadPlist:@"bjehp"];
 
 <video id="video" controls=""src="./Sources/bjehp.mov" preload="none">
 
-
+以上的所有功能均已经开源 [开源地址](https://github.com/erduoniba/HDMIDIPlayer/tree/master)
 
 ### 三、参考资料
 
 [MIDI播放库](https://github.com/mixedinkey-opensource/MIKMIDI)
 
 [数据转模型库](https://github.com/CoderMJLee/MJRefresh)
+
+[Typora插入视频](https://blog.csdn.net/weixin_44586845/article/details/115586168)
+
