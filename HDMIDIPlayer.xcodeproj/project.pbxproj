@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80C267B4814BE334BCE965C6 /* Pods_HDMIDIPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E542897C5150F01CB432F13E /* Pods_HDMIDIPlayer.framework */; };
+		D9D3C64E27E197AE00E5DCB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D3C64D27E197AE00E5DCB3 /* AppDelegate.m */; };
+		D9D3C65127E197AE00E5DCB3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D3C65027E197AE00E5DCB3 /* SceneDelegate.m */; };
+		D9D3C65427E197AE00E5DCB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D3C65327E197AE00E5DCB3 /* ViewController.m */; };
+		D9D3C65727E197AE00E5DCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D3C65527E197AE00E5DCB3 /* Main.storyboard */; };
+		D9D3C65927E197B100E5DCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D3C65827E197B100E5DCB3 /* Assets.xcassets */; };
+		D9D3C65C27E197B100E5DCB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D3C65A27E197B100E5DCB3 /* LaunchScreen.storyboard */; };
+		D9D3C65F27E197B100E5DCB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D3C65E27E197B100E5DCB3 /* main.m */; };
+		D9D3C66E27E1B38D00E5DCB3 /* HDModulator.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D3C66D27E1B38D00E5DCB3 /* HDModulator.m */; };
+		D9D3C67227E1B49800E5DCB3 /* bjehp.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9D3C67127E1B49800E5DCB3 /* bjehp.plist */; };
+		D9D3C67527E1B4B200E5DCB3 /* Grand Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = D9D3C67427E1B4B200E5DCB3 /* Grand Piano.sf2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F3C5E4B0F4AFBE6F2CD19AB /* Pods-HDMIDIPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDMIDIPlayer.release.xcconfig"; path = "Target Support Files/Pods-HDMIDIPlayer/Pods-HDMIDIPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		D9D3C64927E197AE00E5DCB3 /* HDMIDIPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDMIDIPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3C64C27E197AE00E5DCB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9D3C64D27E197AE00E5DCB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9D3C64F27E197AE00E5DCB3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D9D3C65027E197AE00E5DCB3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D9D3C65227E197AE00E5DCB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9D3C65327E197AE00E5DCB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9D3C65627E197AE00E5DCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9D3C65827E197B100E5DCB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D3C65B27E197B100E5DCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9D3C65D27E197B100E5DCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D3C65E27E197B100E5DCB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9D3C66C27E1B38D00E5DCB3 /* HDModulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDModulator.h; sourceTree = "<group>"; };
+		D9D3C66D27E1B38D00E5DCB3 /* HDModulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDModulator.m; sourceTree = "<group>"; };
+		D9D3C67127E1B49800E5DCB3 /* bjehp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = bjehp.plist; sourceTree = "<group>"; };
+		D9D3C67427E1B4B200E5DCB3 /* Grand Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Grand Piano.sf2"; sourceTree = "<group>"; };
+		DF622552EEE3B3F41B9D98D7 /* Pods-HDMIDIPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDMIDIPlayer.debug.xcconfig"; path = "Target Support Files/Pods-HDMIDIPlayer/Pods-HDMIDIPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		E542897C5150F01CB432F13E /* Pods_HDMIDIPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDMIDIPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9D3C64627E197AE00E5DCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C267B4814BE334BCE965C6 /* Pods_HDMIDIPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F2187DA1C93754DB415F62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E542897C5150F01CB432F13E /* Pods_HDMIDIPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7856460DC1DBC800B0633671 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF622552EEE3B3F41B9D98D7 /* Pods-HDMIDIPlayer.debug.xcconfig */,
+				1F3C5E4B0F4AFBE6F2CD19AB /* Pods-HDMIDIPlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9D3C64027E197AE00E5DCB3 = {
+			isa = PBXGroup;
+			children = (
+				D9D3C64B27E197AE00E5DCB3 /* HDMIDIPlayer */,
+				D9D3C64A27E197AE00E5DCB3 /* Products */,
+				7856460DC1DBC800B0633671 /* Pods */,
+				43F2187DA1C93754DB415F62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D3C64A27E197AE00E5DCB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D3C64927E197AE00E5DCB3 /* HDMIDIPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9D3C64B27E197AE00E5DCB3 /* HDMIDIPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D9D3C66B27E1B37D00E5DCB3 /* HDModulator */,
+				D9D3C64C27E197AE00E5DCB3 /* AppDelegate.h */,
+				D9D3C64D27E197AE00E5DCB3 /* AppDelegate.m */,
+				D9D3C64F27E197AE00E5DCB3 /* SceneDelegate.h */,
+				D9D3C65027E197AE00E5DCB3 /* SceneDelegate.m */,
+				D9D3C65227E197AE00E5DCB3 /* ViewController.h */,
+				D9D3C65327E197AE00E5DCB3 /* ViewController.m */,
+				D9D3C67127E1B49800E5DCB3 /* bjehp.plist */,
+				D9D3C67427E1B4B200E5DCB3 /* Grand Piano.sf2 */,
+				D9D3C65527E197AE00E5DCB3 /* Main.storyboard */,
+				D9D3C65827E197B100E5DCB3 /* Assets.xcassets */,
+				D9D3C65A27E197B100E5DCB3 /* LaunchScreen.storyboard */,
+				D9D3C65D27E197B100E5DCB3 /* Info.plist */,
+				D9D3C65E27E197B100E5DCB3 /* main.m */,
+			);
+			path = HDMIDIPlayer;
+			sourceTree = "<group>";
+		};
+		D9D3C66B27E1B37D00E5DCB3 /* HDModulator */ = {
+			isa = PBXGroup;
+			children = (
+				D9D3C66C27E1B38D00E5DCB3 /* HDModulator.h */,
+				D9D3C66D27E1B38D00E5DCB3 /* HDModulator.m */,
+			);
+			path = HDModulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9D3C64827E197AE00E5DCB3 /* HDMIDIPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D3C66227E197B100E5DCB3 /* Build configuration list for PBXNativeTarget "HDMIDIPlayer" */;
+			buildPhases = (
+				DCE60817EC8D31AFB3870802 /* [CP] Check Pods Manifest.lock */,
+				D9D3C64527E197AE00E5DCB3 /* Sources */,
+				D9D3C64627E197AE00E5DCB3 /* Frameworks */,
+				D9D3C64727E197AE00E5DCB3 /* Resources */,
+				07F3F4C505DE6C9E05BBFDD8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDMIDIPlayer;
+			productName = HDMIDIPlayer;
+			productReference = D9D3C64927E197AE00E5DCB3 /* HDMIDIPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9D3C64127E197AE00E5DCB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D9D3C64827E197AE00E5DCB3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D9D3C64427E197AE00E5DCB3 /* Build configuration list for PBXProject "HDMIDIPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9D3C64027E197AE00E5DCB3;
+			productRefGroup = D9D3C64A27E197AE00E5DCB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D3C64827E197AE00E5DCB3 /* HDMIDIPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D3C64727E197AE00E5DCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D3C67527E1B4B200E5DCB3 /* Grand Piano.sf2 in Resources */,
+				D9D3C65C27E197B100E5DCB3 /* LaunchScreen.storyboard in Resources */,
+				D9D3C65927E197B100E5DCB3 /* Assets.xcassets in Resources */,
+				D9D3C67227E1B49800E5DCB3 /* bjehp.plist in Resources */,
+				D9D3C65727E197AE00E5DCB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F3F4C505DE6C9E05BBFDD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HDMIDIPlayer/Pods-HDMIDIPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HDMIDIPlayer/Pods-HDMIDIPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HDMIDIPlayer/Pods-HDMIDIPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE60817EC8D31AFB3870802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HDMIDIPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9D3C64527E197AE00E5DCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D3C66E27E1B38D00E5DCB3 /* HDModulator.m in Sources */,
+				D9D3C65427E197AE00E5DCB3 /* ViewController.m in Sources */,
+				D9D3C64E27E197AE00E5DCB3 /* AppDelegate.m in Sources */,
+				D9D3C65F27E197B100E5DCB3 /* main.m in Sources */,
+				D9D3C65127E197AE00E5DCB3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9D3C65527E197AE00E5DCB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D3C65627E197AE00E5DCB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9D3C65A27E197B100E5DCB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D3C65B27E197B100E5DCB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9D3C66027E197B100E5DCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9D3C66127E197B100E5DCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9D3C66327E197B100E5DCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF622552EEE3B3F41B9D98D7 /* Pods-HDMIDIPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HDMIDIPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.toolbardemo.HDMIDIPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D3C66427E197B100E5DCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3C5E4B0F4AFBE6F2CD19AB /* Pods-HDMIDIPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HDMIDIPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.toolbardemo.HDMIDIPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9D3C64427E197AE00E5DCB3 /* Build configuration list for PBXProject "HDMIDIPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D3C66027E197B100E5DCB3 /* Debug */,
+				D9D3C66127E197B100E5DCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D3C66227E197B100E5DCB3 /* Build configuration list for PBXNativeTarget "HDMIDIPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D3C66327E197B100E5DCB3 /* Debug */,
+				D9D3C66427E197B100E5DCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9D3C64127E197AE00E5DCB3 /* Project object */;
+}

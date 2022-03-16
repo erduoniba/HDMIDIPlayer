@@ -1,0 +1,20 @@
+PODS:
+  - MIKMIDI (1.7.1)
+  - MJExtension (3.4.1)
+
+DEPENDENCIES:
+  - MIKMIDI
+  - MJExtension
+
+SPEC REPOS:
+  trunk:
+    - MIKMIDI
+    - MJExtension
+
+SPEC CHECKSUMS:
+  MIKMIDI: f53dca2f372e71183ecdd2b35c984c1c2cd11cbc
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+
+PODFILE CHECKSUM: c233409defd6dd3f7ad93c2e07a3780c8b452c49
+
+COCOAPODS: 1.10.0

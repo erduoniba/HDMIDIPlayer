@@ -1,0 +1,657 @@
+{
+	interval = "0.5";
+	hitCount = 4;
+	allCount = 4;
+	modulators = (
+		{
+			modulator = 0;
+			mmodulator = 0;
+		},
+		{
+			modulators = (
+				{
+					modulator = 6;
+				},
+				{
+					modulator = 7;
+				},
+			);
+			mmodulator = 0;
+		},
+		{
+			modulator = 11;
+			mmodulator = 0;
+		},
+		{
+			modulator = 55;
+			mmodulator = 0;
+		},
+		{
+			modulator = 44;
+			mmodulators = (
+				{
+					mmodulator = "-2";
+				},
+				{
+					mmodulator = "-6";
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 2;
+		},
+		{
+			modulator = 0;
+			mmodulator = 3;
+		},
+		{
+			modulator = 0;
+			mmodulator = 4;
+		},
+		{
+			modulator = 0;
+			mmodulators = (
+				{
+					mmodulator = "-5";
+				},
+				{
+					mmodulator = "-2";
+				},
+			);
+		},
+		{
+			modulators = (
+				{
+					modulator = 5;
+				},
+				{
+					modulator = 6;
+				},
+			);
+			mmodulators = (
+				{
+					mmodulator = "-5";
+				},
+				{
+					mmodulator = "-6";
+				},
+			);
+		},
+		{
+			modulator = 7;
+			mmodulator = "-7";
+		},
+		{
+			modulator = 44;
+			mmodulator = 0;
+		},
+		{
+			modulator = 33;
+			mmodulators = (
+				{
+					mmodulator = "-1";
+				},
+				{
+					mmodulator = "-5";
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 1;
+		},
+		{
+			modulator = 0;
+			mmodulator = 2;
+		},
+		{
+			modulator = 0;
+			mmodulator = 3;
+		},
+		{
+			modulator = 0;
+			mmodulator = 5;
+		},
+		{
+			modulators = (
+				{
+					modulator = 33;
+				},
+				{
+					modulator = 33;
+				},
+			);
+			mmodulator = 0;
+		},
+		{
+			modulator = 66;
+			mmodulator = 0;
+		},
+		{
+			modulator = 55;
+			mmodulator = 0;
+		},
+		{
+			modulator = 44;
+			mmodulators = (
+				{
+					mmodulator = "-2";
+				},
+				{
+					mmodulator = "-6";
+				},
+			);
+		},
+		{
+			modulator = 22;
+			mmodulators = (
+				{
+					mmodulator = 2;
+				},
+				{
+					mmodulator = 3;
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 4;
+		},
+		{
+			modulator = 11;
+			mmodulator = 0;
+		},
+		{
+			modulator = 7;
+			mmodulator = "-3";
+		},
+		{
+			modulator = 33;
+			mmodulator = 2;
+		},
+		{
+			modulator = 22;
+			mmodulator = 0;
+		},
+		{
+			modulator = 11;
+			mmodulator = 0;
+		},
+		{
+			modulator = 6;
+			mmodulators = (
+				{
+					mmodulator = "-6";
+				},
+				{
+					mmodulator = "-3";
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulators = (
+				{
+					mmodulator = "-6";
+				},
+				{
+					mmodulator = "-7";
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 1;
+		},
+		{
+			modulator = 0;
+			mmodulator = 0;
+		},
+		{
+			modulator = 0;
+			mmodulator = 3;
+		},
+		{
+			modulators = (
+				{
+					modulator = 6;
+				},
+				{
+					modulator = 7;
+				},
+			);
+			mmodulator = 0;
+		},
+		{
+			modulator = 11;
+			mmodulator = 0;
+		},
+		{
+			modulator = 55;
+			mmodulator = 0;
+		},
+		{
+			modulator = 2;
+			mmodulators = (
+				{
+					mmodulator = "-2";
+				},
+				{
+					mmodulator = "-6";
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulators = (
+				{
+					mmodulator = 2;
+				},
+				{
+					mmodulator = 3;
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 4;
+		},
+		{
+			modulator = 0;
+			mmodulator = 6;
+		},
+		{
+			modulator = 0;
+			mmodulators = (
+				{
+					mmodulator = "-5";
+				},
+				{
+					mmodulator = "-2";
+				},
+			);
+		},
+		{
+			modulators = (
+				{
+					modulator = 5;
+				},
+				{
+					modulator = 6;
+				},
+			);
+			mmodulators = (
+				{
+					mmodulator = "-5";
+				},
+				{
+					mmodulator = "-6";
+				},
+			);
+		},
+		{
+			modulator = 7;
+			mmodulator = "-7";
+		},
+		{
+			modulator = 44;
+			mmodulator = 2;
+		},
+		{
+			modulator = 3;
+			mmodulators = (
+				{
+					mmodulator = "-1";
+				},
+				{
+					mmodulator = "-5";
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 1;
+		},
+		{
+			modulator = 0;
+			mmodulator = 2;
+		},
+		{
+			modulator = 0;
+			mmodulator = 3;
+		},
+		{
+			modulator = 0;
+			mmodulator = 5;
+		},
+		{
+			modulators = (
+				{
+					modulator = 33;
+				},
+				{
+					modulator = 33;
+				},
+			);
+			mmodulator = 0;
+		},
+		{
+			modulator = 66;
+			mmodulator = 0;
+		},
+		{
+			modulator = 55;
+			mmodulator = 0;
+		},
+		{
+			modulator = 44;
+			mmodulators = (
+				{
+					mmodulator = "-2";
+				},
+				{
+					mmodulator = "-6";
+				},
+			);
+		},
+		{
+			modulator = 22;
+			mmodulators = (
+				{
+					mmodulator = 2;
+				},
+				{
+					mmodulator = 3;
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 4;
+		},
+		{
+			modulators = (
+				{
+					modulator = 22;
+				},
+				{
+					modulator = 11;
+				},
+			);
+			mmodulator = 0;
+		},
+		{
+			modulator = 7;
+			mmodulators = (
+				{
+					mmodulator = "-5";
+				},
+				{
+					mmodulator = "-2";
+				},
+			);
+		},
+		{
+			modulator = 7;
+			mmodulators = (
+				{
+					mmodulator = "-5";
+				},
+				{
+					mmodulator = "-6";
+				},
+			);
+		},
+		{
+			modulators = (
+				{
+					modulator = 11;
+				},
+				{
+					modulator = 22;
+				},
+			);
+			mmodulator = 7;
+		},
+		{
+			modulator = 44;
+			mmodulator = 0;
+		},
+		{
+			modulator = 3;
+			mmodulators = (
+				{
+					mmodulator = "-3";
+				},
+				{
+					mmodulator = "-7";
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulators = (
+				{
+					mmodulator = 3;
+				},
+				{
+					mmodulator = 5;
+				},
+			);
+		},
+		{
+			modulator = 7;
+			mmodulator = 0;
+		},
+		{
+			modulator = 33;
+			mmodulator = 0;
+		},
+		{
+			modulator = 55;
+			mmodulator = 0;
+		},
+		{
+			modulators = (
+				{
+					modulator = 66;
+				},
+				{
+					modulator = 77;
+				},
+			);
+			mmodulator = 0;
+		},
+		{
+			modulator = 11;
+			mmodulator = 0;
+		},
+		{
+			modulator = 55;
+			mmodulator = 0;
+		},
+		{
+			modulator = 2;
+			mmodulators = (
+				{
+					mmodulator = 2;
+				},
+				{
+					mmodulator = 6;
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 22;
+		},
+		{
+			modulator = 0;
+			mmodulator = 33;
+		},
+		{
+			modulator = 0;
+			mmodulator = 44;
+		},
+		{
+			modulator = 0;
+			mmodulators = (
+				{
+					mmodulator = "-5";
+				},
+				{
+					mmodulator = 2;
+				},
+			);
+		},
+		{
+			modulators = (
+				{
+					modulator = 55;
+				},
+				{
+					modulator = 66;
+				},
+			);
+			mmodulators = (
+				{
+					mmodulator = 5;
+				},
+				{
+					mmodulator = 6;
+				},
+			);
+		},
+		{
+			modulator = 77;
+			mmodulator = 7;
+		},
+		{
+			modulator = 44;
+			mmodulator = 0;
+		},
+		{
+			modulator = 1;
+			mmodulators = (
+				{
+					mmodulator = 1;
+				},
+				{
+					mmodulator = 5;
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 11;
+		},
+		{
+			modulator = 0;
+			mmodulator = 22;
+		},
+		{
+			modulator = 0;
+			mmodulator = 33;
+		},
+		{
+			modulator = 0;
+			mmodulator = 5;
+		},
+		{
+			modulators = (
+				{
+					modulator = 33;
+				},
+				{
+					modulator = 33;
+				},
+			);
+			mmodulator = 0;
+		},
+		{
+			modulator = 66;
+			mmodulator = 0;
+		},
+		{
+			modulator = 55;
+			mmodulator = 0;
+		},
+		{
+			modulator = 44;
+			mmodulators = (
+				{
+					mmodulator = 2;
+				},
+				{
+					mmodulator = 6;
+				},
+			);
+		},
+		{
+			modulator = 22;
+			mmodulators = (
+				{
+					mmodulator = 22;
+				},
+				{
+					mmodulator = 33;
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 44;
+		},
+		{
+			modulator = 11;
+			mmodulator = 0;
+		},
+		{
+			modulator = 33;
+			mmodulator = 0;
+		},
+		{
+			modulator = 77;
+			mmodulator = 0;
+		},
+		{
+			modulator = 33;
+			mmodulator = 0;
+		},
+		{
+			modulator = 11;
+			mmodulator = 0;
+		},
+		{
+			modulator = 66;
+			mmodulators = (
+				{
+					mmodulator = "-6";
+				},
+				{
+					mmodulator = 3;
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulators = (
+				{
+					mmodulator = 6;
+				},
+				{
+					mmodulator = 7;
+				},
+			);
+		},
+		{
+			modulator = 0;
+			mmodulator = 11;
+		},
+		{
+			modulator = 0;
+			mmodulator = 22;
+		},
+	);
+}
