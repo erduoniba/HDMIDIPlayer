@@ -10,7 +10,7 @@
 
 #### **1、认识钢琴键盘和简谱的关系**
 
-![paino](Sources/piano.png)
+![paino](./Sources/piano.png)
 
 
 
@@ -102,7 +102,7 @@ noteOn = [MIKMIDINoteOnCommand noteOnCommandWithNote:note velocity:127 channel:1
 
 #### **3、钢琴简谱如何生成对应MIDI值**
 
-![](Sources/bjehp.jpeg) 
+![](./Sources/bjehp.jpeg) 
 
 首先看一下该简谱的基本信息：
 
@@ -115,13 +115,13 @@ C4/4：表示C调，4/4拍，即 “da da da da”
 0 0  0  0		：该行为副旋律或者伴奏，表示四个空拍
 ```
 
-![beat](Sources/beat.jpg)
+![beat](./Sources/beat.jpg)
 
 👆来自北京超哥的用心指导
 
 所以这四拍对应的**数据结构**应该是
 
-![](Sources/bjehp_data.jpg)
+![](./Sources/bjehp_data.jpg)
 
 字段解析如下：
 
