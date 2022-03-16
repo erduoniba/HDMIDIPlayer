@@ -1,5 +1,5 @@
 {
-	interval = "0.5";
+	interval = "0.6";
 	hitCount = 4;
 	allCount = 4;
 	modulators = (

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, HDModulatorMidiValue) {
+    HDModulatorMidiInit = -1001,    // 初始化
     HDModulatorMidiEmpty = -1000,   // 空一拍
     
     HDModulatorMidiLowLowDo = -24,
@@ -54,6 +55,7 @@ typedef NS_ENUM(NSInteger, HDModulatorMidiValue) {
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// 节拍数据对象
 @interface HDModulatorItem : NSObject
 
 /// 节拍的间隔时间
@@ -108,7 +110,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 音阶组合（数据结构是队列结构）（副旋律/伴奏）
 @property (nonatomic, copy) NSMutableArray <HDModulatorItem *>*combineMinorModulators;
-
 
 /// 通过钢琴的音阶（1-7）转换成MIDI的音阶
 /// @param modulator 钢琴的音阶（1-7）

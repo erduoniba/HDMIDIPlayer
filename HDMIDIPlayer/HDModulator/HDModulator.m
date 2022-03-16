@@ -29,8 +29,8 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _midiModulator = HDModulatorMidiEmpty;
-        _midiMinorModulator = HDModulatorMidiEmpty;
+        _midiModulator = HDModulatorMidiInit;
+        _midiMinorModulator = HDModulatorMidiInit;
     }
     return self;
 }
@@ -42,22 +42,33 @@
 }
 
 - (HDModulatorMidiValue)midiModulator {
+    if (_midiModulator != HDModulatorMidiInit) {
+        return _midiModulator;
+    }
+    
     if (_modulator) {
         // 555表示高高5阶：level为   value为5
         // -555表示低低5阶
         NSInteger level = [[NSString stringWithFormat:@"%ld", (long)_modulator] length];
         NSInteger value = [HDModulator midiModulator:_modulator % 10];
         if (_modulator < 0 && level > 1) {
-            // 如果是负数，则会多一个负号，需要 - 2 操作
-            return value - (level - 2) * 12;
+            // 如果是负数，则会多一个负号，需要 - 1 操作
+            _midiModulator = value - (level - 1) * 12;
+            return _midiModulator;
         }
         
-        return value + (level - 1) * 12;
+        _midiModulator = value + (level - 1) * 12;
+        return _midiModulator;
     }
+    _midiModulator = HDModulatorMidiEmpty;
     return _midiModulator;
 }
 
 - (HDModulatorMidiValue)midiMinorModulator {
+    if (_midiMinorModulator != HDModulatorMidiInit) {
+        return _midiMinorModulator;
+    }
+    
     if (_minorModulator) {
         // 555表示高高5阶：level为   value为5
         // -555表示低低5阶
@@ -65,11 +76,13 @@
         NSInteger value = [HDModulator midiModulator:labs(_minorModulator % 10)];
         if (_minorModulator < 0 && level > 1) {
             // 如果是负数，则会多一个负号，需要 -1 操作
-            return value - (level - 1) * 12;
+            _midiMinorModulator = value - (level - 1) * 12;
+            return _midiMinorModulator;
         }
-        
-        return value + (level - 1) * 12;
+        _midiMinorModulator = value + (level - 1) * 12;
+        return _midiMinorModulator;
     }
+    _midiMinorModulator = HDModulatorMidiEmpty;
     return _midiMinorModulator;
 }
 
@@ -139,6 +152,7 @@
 
 - (void)addModulatorItem:(HDModulatorItem *)item {
     if (item.modulators.count > 0) {
+        // 这里需要注意，一拍中又包含多个小拍，时间间隔需要处理
         NSTimeInterval beatInterval = item.interval / item.modulators.count;
         for (HDModulatorItem *mm in item.modulators) {
             mm.interval = beatInterval;
@@ -163,6 +177,7 @@
 
 - (void)addMinorModulatorItem:(HDModulatorItem *)item {
     if (item.minorModulators.count > 0) {
+        // 这里需要注意，一拍中又包含多个小拍，时间间隔需要处理
         NSTimeInterval beatInterval = item.interval / item.minorModulators.count;
         for (HDModulatorItem *mm in item.minorModulators) {
             mm.interval = beatInterval;
