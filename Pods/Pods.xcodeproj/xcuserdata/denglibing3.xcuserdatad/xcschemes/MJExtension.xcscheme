@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1240"
+   LastUpgradeVersion = "1500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32DCF7AC2F1D21044B76E03AD92015CD"
-               BuildableName = "Pods_HDMIDIPlayer.framework"
-               BlueprintName = "Pods-HDMIDIPlayer"
+               BlueprintIdentifier = "4D3BA58D0583DF37575CACAB3DDADC85"
+               BuildableName = "MJExtension.framework"
+               BlueprintName = "MJExtension"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
